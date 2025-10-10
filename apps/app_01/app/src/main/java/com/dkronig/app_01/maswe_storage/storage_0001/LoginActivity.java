@@ -1,15 +1,19 @@
-package com.dkronig.app_01;
+package com.dkronig.app_01.maswe_storage.storage_0001;
 
-import android.os.Bundle;
-import androidx.appcompat.app.AppCompatActivity;
+import android.content.Intent;
 import android.content.SharedPreferences;
+import android.os.Bundle;
+import android.text.TextUtils;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-import android.content.Intent;
 import android.widget.EditText;
-import android.util.Log;
 import android.widget.Toast;
-import android.text.TextUtils;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.dkronig.app_01.MainActivity;
+import com.dkronig.app_01.R;
 
 public class LoginActivity extends AppCompatActivity {
 

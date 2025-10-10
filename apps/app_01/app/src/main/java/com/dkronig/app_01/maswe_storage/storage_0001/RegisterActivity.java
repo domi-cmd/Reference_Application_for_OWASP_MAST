@@ -1,16 +1,21 @@
-package com.dkronig.app_01;
+package com.dkronig.app_01.maswe_storage.storage_0001;
+
+import android.content.Intent;
+import android.content.SharedPreferences;
+import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.dkronig.app_01.MainActivity;
+import com.dkronig.app_01.R;
 
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import android.os.Bundle;
-import android.content.SharedPreferences;
-import android.util.Log;
-import android.view.View;
-import android.widget.Button;
-import android.content.Intent;
-import android.widget.EditText;
-import androidx.appcompat.app.AppCompatActivity;
 
 public class RegisterActivity extends AppCompatActivity {
 

@@ -2,8 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <!-- Allow all data to be backup up, including sensitive data. -->
     <application
-        <!-- Allow all data to be backup up, including sensitive data. -->
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -21,10 +21,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LoginActivity" />
-        <activity android:name=".RegisterActivity" />
-        <activity android:name=".ProfileActivity" />
-        <activity android:name=".SettingsActivity" />
+        <activity android:name=".maswe_storage.StorageMainActivity" />
+        <activity android:name=".maswe_storage.storage_0001.SettingsActivity" />
+        <activity android:name=".maswe_storage.storage_0001.RegisterActivity" />
+        <activity android:name=".maswe_storage.storage_0001.LoginActivity" />
+        <activity android:name=".maswe_storage.storage_0001.ProfileActivity" />
     </application>
 
 </manifest>
